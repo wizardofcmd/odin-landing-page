@@ -1,4 +1,5 @@
 /* Roboto Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
@@ -88,4 +89,41 @@ body {
     height: auto;
     padding: 0;
     margin: 0;
+}
+
+/* Random content */
+
+ .random-info-content {
+    display: flex;
+    flex: 0.2;
+ }
+
+ /* Inspiration content */
+
+ .inspo-content {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 0.35;
+ }
+
+ #babs-quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+ }
+
+ /* Call to action content */
+
+ .action-content {
+    display: flex;
+    flex: 0.3;
+ }
+
+ /* Footer */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 0.05;
+    justify-content: center;
+    align-items: center;
 }
